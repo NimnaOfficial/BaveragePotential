@@ -1,1 +1,13 @@
 # requirements.txt - Auto-generated
+pandas
+numpy
+pyarrow
+fastparquet
+requests
+tqdm
+scikit-learn
+statsmodels
+folium
+matplotlib
+seaborn
+jupyter
