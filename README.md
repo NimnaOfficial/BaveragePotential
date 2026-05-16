@@ -143,5 +143,7 @@ python src/modeling/generate_visuals.py
   * *Focus: Medallion architecture layout, Pandas memory optimization, Data forensics.*
 * **K.G.L. Sandanimne** — Lead Data Scientist & Modeler
   * *Focus: Geospatial API integration, Algorithmic constraint profiling, Feature engineering.*
+* **Huwin Fernando** - AI Prompt Engineer
+  * *Focus: Handling AI agents and prompt creating.*
 
 > *"Transforming raw historical constraints into actionable future potential."*
