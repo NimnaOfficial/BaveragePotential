@@ -77,8 +77,8 @@ Mathematical models can hallucinate impossible targets. We coded strict physical
 
 **1. Clone the Repository & Install Dependencies**
 ```bash
-git clone [https://github.com/](https://github.com/)[YOUR-GITHUB-USERNAME]/[YOUR-REPO-NAME].git
-cd [YOUR-REPO-NAME]
+git clone https://github.com/NimnaOfficial/BaveragePotential.git
+cd BaveragePotential
 pip install -r requirements.txt
 ```
 ### 2. Populate the Lakehouse
