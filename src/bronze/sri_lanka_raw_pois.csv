@@ -1,0 +1,168 @@
+{
+  "source_name": "osm",
+  "snapshot_label": "2026-05-10",
+  "dataset_source": "OpenStreetMap (Geofabrik LKA 2026-05-10)",
+  "generated_utc": "2026-05-14T17:45:02Z",
+  "oex_version": "0.2.1",
+  "license_label": "hdx-odc-odbl",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "pcode_source_date": "2025-07-29",
+  "boundary": "geoBoundaries CGAZ ADM0 (buffered +5000m)",
+  "metadata": {
+    "feature_count": 63511,
+    "geometry_types": {
+      "POINT": 33980,
+      "POLYGON": 28969,
+      "LINESTRING": 545,
+      "MULTIPOLYGON": 17
+    },
+    "bbox": [
+      79.6513927,
+      5.9192089,
+      81.8779426,
+      9.835611
+    ],
+    "columns": [
+      {
+        "name": "id",
+        "type": "VARCHAR",
+        "null_count": 0,
+        "null_percent": 0.0,
+        "distinct_count": 63508,
+        "top_values": []
+      },
+      {
+        "name": "name",
+        "type": "VARCHAR",
+        "null_count": 27699,
+        "null_percent": 43.61,
+        "distinct_count": 28550,
+        "top_values": []
+      },
+      {
+        "name": "name_en",
+        "type": "VARCHAR",
+        "null_count": 59696,
+        "null_percent": 93.99,
+        "distinct_count": 3538,
+        "top_values": []
+      },
+      {
+        "name": "name_si",
+        "type": "VARCHAR",
+        "null_count": 63268,
+        "null_percent": 99.62,
+        "distinct_count": 227,
+        "top_values": [
+          {
+            "value": "\u0dbd\u0d82\u0d9a\u0dcf \u0db6\u0dd0\u0d82\u0d9a\u0dd4\u0dc0",
+            "count": 6
+          },
+          {
+            "value": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+            "count": 6
+          },
+          {
+            "value": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+            "count": 3
+          },
+          {
+            "value": "\u0db8\u0dc4\u0da2\u0db1 \u0db6\u0dd0\u0d82\u0d9a\u0dd4\u0dc0",
+            "count": 3
+          },
+          {
+            "value": "\u0daf\u0dd6\u0dbd\u0dd2 \u0d87\u0dbd\u0dca\u0dbd",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "name": "name_ta",
+        "type": "VARCHAR",
+        "null_count": 62416,
+        "null_percent": 98.28,
+        "distinct_count": 1062,
+        "top_values": []
+      },
+      {
+        "name": "amenity",
+        "type": "VARCHAR",
+        "null_count": 29222,
+        "null_percent": 46.01,
+        "distinct_count": 348,
+        "top_values": [
+          {
+            "value": "place_of_worship",
+            "count": 9277
+          },
+          {
+            "value": "school",
+            "count": 5029
+          },
+          {
+            "value": "restaurant",
+            "count": 3209
+          },
+          {
+            "value": "bank",
+            "count": 2225
+          },
+          {
+            "value": "parking",
+            "count": 1064
+          }
+        ]
+      },
+      {
+        "name": "man_made",
+        "type": "VARCHAR",
+        "null_count": 53111,
+        "null_percent": 83.62,
+        "distinct_count": 65,
+        "top_values": [
+          {
+            "value": "water_well",
+            "count": 5994
+          },
+          {
+            "value": "tower",
+            "count": 956
+          },
+          {
+            "value": "storage_tank",
+            "count": 529
+          },
+          {
+            "value": "clearcut",
+            "count": 379
+          },
+          {
+            "value": "water_tower",
+            "count": 336
+          }
+        ]
+      },
+      {
+        "name": "shop",
+        "type": "VARCHAR",
+        "null_count": 51442,
+        "null_percent": 81.0,
+        "distinct_count": 248,
+        "top_values": [
+          {
+            "value": "yes",
+            "count": 2636
+          },
+          {
+            "value": "supermarket",
+            "count": 1140
+          },
+          {
+            "value": "convenience",
+            "count": 1033
+          },
+          {
+            "value": "clothes",
+            "count": 621
+          },
+          {
