@@ -113,6 +113,7 @@ python src/modeling/generate_visuals.py
 ```
 ## 📂 Repository Directory Structure
 
+```plaintext
 📦 project-root
  ┣ 📂 data
  ┃ ┣ 📂 bronze          # Raw CSV inputs and initial Parquet conversions
@@ -132,14 +133,15 @@ python src/modeling/generate_visuals.py
  ┣ 📜 .gitignore        # Shields GitHub from multi-gigabyte data files
  ┣ 📜 requirements.txt  # Python environment dependencies
  ┗ 📜 README.md         # You are here
+```
 
 ---
 
 ## 👥 Meet the Engineering Team
 
-* **Nima** — Lead Data Engineer & Pipeline Architect
+* **Dulan Dhanush** — Lead Data Engineer & Pipeline Architect
   * *Focus: Medallion architecture layout, Pandas memory optimization, Data forensics.*
-* **[TEAMMATE NAME]** — Lead Data Scientist & Modeler
+* **K.G.L. Sandanimne** — Lead Data Scientist & Modeler
   * *Focus: Geospatial API integration, Algorithmic constraint profiling, Feature engineering.*
 
 > *"Transforming raw historical constraints into actionable future potential."*
