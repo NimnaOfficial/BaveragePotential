@@ -1,0 +1,6 @@
+Table,Reason,Rejected_Row_Count
+transactions,"Duplicate keys in ['Outlet_ID', 'Year', 'Month', 'SKU_ID']",32240
+transactions,Volume_Liters out of bounds (0.001 to 100000),4740
+outlet_master,"Null values found in ['Outlet_ID', 'Outlet_Size', 'Cooler_Count', 'Outlet_Type']",196
+coordinates,Coordinates out of Sri Lanka range,240
+holidays,"Duplicate keys in ['Date', 'Holiday_Name', 'Holiday_Type']",93
