@@ -1,0 +1,20 @@
+import os
+
+empty_folders = [
+    "data/bronze",
+    "data/silver/cleaned",
+    "data/silver/rejected",
+    "data/gold",
+    "data/poi_cache",
+    "outputs",
+    "report"
+]
+
+for folder in empty_folders:
+    # Create the folder if it somehow doesn't exist
+    os.makedirs(folder, exist_ok=True)
+    # Create the hidden .gitkeep file
+    with open(os.path.join(folder, ".gitkeep"), "w") as f:
+        pass
+
+print("✅ .gitkeep files created! Git will now track these folders.")

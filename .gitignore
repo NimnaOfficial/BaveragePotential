@@ -1,0 +1,20 @@
+# Ignore raw datasets and massive data files
+data/**/*.csv
+data/**/*.parquet
+data/**/*.json
+
+# Ignore outputs (your teammate will generate their own locally)
+outputs/*.csv
+outputs/*.html
+
+# Keep the folder structure intact
+!data/**/.gitkeep
+!outputs/.gitkeep
+!report/.gitkeep
+
+# Python caches and environments
+__pycache__/
+*.pyc
+.env
+venv/
+.ipynb_checkpoints/
