@@ -12,7 +12,9 @@
 *Engineered for OCTAVE (John Keells Group) by Team CODE BLOODED*
 
 </div>
+
 ![Alt text](https://i.postimg.cc/BQdJxH4c/dtastm.png)
+
 ---
 
 ## 📖 Executive Summary
